@@ -1,0 +1,392 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial');
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+    background-color: #1e1f22;
+    min-height: 100vh;
+    height: 100%;
+    z-index: 1;
+}
+#All{
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#DiscordTxt{/*Nao mexer*/
+    position: absolute;
+    font-family: "ABC Ginto Nord Unlicensed Trial";
+    font-size: 11px;
+    top: 2px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: default;
+    color: #949ba4;
+    opacity: 0.7;
+}
+#BackgroundChat{/*Nao mexer*/
+    background-color: #313338;
+    position: absolute;
+    z-index: 2;
+    top: 74.5px;
+    left: 300px;
+    min-height: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+#background{/*Nao mexer*/
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    padding-left: -10px;
+    padding-top: -10px;
+    
+}
+#Dropdown{/*Nao mexer*/
+    width: 12px;
+    cursor: pointer;
+    height: 8px;
+    position: absolute;
+    left: 210px;
+    top: 20px;
+}
+#ServerTab:hover{
+    transition: 0.4s;
+    background-color: #36373d;
+}
+#ServerTab{/*Nao mexer*/
+    transition: 0.4s;
+    width: 240px;
+    height: 52px;
+    border-top-left-radius: 8px;
+    left: 200px;
+    top: 0px;
+    position: sticky;
+    box-shadow: 0px 2px 0px #1e1f22;
+    background-color: #2b2d31;
+}
+#LeftTab{/*Nao mexer*/
+    width: 240px;
+    min-height: 100%;
+    height: 100%;
+    z-index: 2;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    top: 4.9px; 
+    background-color: #2b2d31;
+}
+#ServerName{ /*Nao mexer*/
+    font-family: 'Open sans';
+    cursor: default;
+    color: white;
+    top: 12px;
+    left: 15px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+.CircleServer{
+    background-color: #313338;
+    height: 50px;
+    transition: 0.2s;
+    width: 50px;
+    left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px; 
+    z-index: 1;
+}
+.CircleServer:hover{/*Nao mexer*/
+    transition: 0.4s;
+    border-radius: 36%;
+}
+#compass{
+    color: #23a559;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+#Navigate:hover{
+    background-color: #23a559;
+}
+#Navigate:hover > svg{
+    color: white;
+}
+#Navigate{
+    top: 366px;
+}
+#Circle02{/*Nao mexer*/
+    top: 90px;
+}
+#Circle03{/*Nao mexer*/
+    top: 145px;
+}
+#Circle04{/*Nao mexer*/
+    top: 200px;
+}
+#Circle05{/*Nao mexer*/
+    top: 255px;
+}
+#AddServer:hover{/*Nao mexer*/
+    background-color: #23a559;
+}
+#AddServer:hover > div{/*Nao mexer*/
+    background-color: white;
+}
+#AddServer{/*Nao mexer*/
+    top: 310px;
+}
+#VerticalGreen{/*Nao mexer*/
+    background-color: #23a559;
+    height: 18px;
+    top: 10px;
+    left: 13px;
+    position: absolute;
+}
+#HorizontalGreen{/*Nao mexer*/
+    rotate: 90deg;
+    background-color: #23a559;
+    z-index: 2;
+    height: 18px;
+    top: 10px;
+    left: 13px;
+    position: absolute;
+}
+#CircleLogo:hover{/*Nao mexer*/
+    transition: 0.4s;
+    border-radius: 36%;
+    background-color: #5865f2;
+    opacity: 10;
+}
+#ServerSeparador{
+    width: 35px;
+    left: 14px;
+    top: 76px;
+    opacity: 1.0;
+    z-index: 2;
+    color: #35363c;
+}
+.Circle {/*Nao mexer*/
+    height: 50px;
+    transition: 0.2s;
+    width: 50px;
+    left: 10px;
+    cursor: pointer;
+    background-color: #313338;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px; 
+    z-index: 1;
+}
+#DiscordLogo {/*Nao mexer*/
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 58px;
+    z-index: 2;
+    width: 58px;
+    top: 8px;
+    left: 10px;
+}
+#ChatName{/*Nao mexer*/
+    font-family: 'Open sans';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: default;
+    position: relative;
+    top: -27px;
+    z-index: 2;
+    left: 270px;
+}
+#CircleChat:hover{/*Nao mexer*/
+    background-color: #dbdee1;
+    cursor: pointer;
+}
+#CircleChat{/*Nao mexer*/
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #b5bac1;
+    top: 10px;
+    z-index: 2;
+    border-radius: 50%;
+    left: 10px;
+}
+#Vertical{/*Nao mexer*/
+    left: 0px;
+    position: absolute;
+}
+#Horizontal{/*Nao mexer*/
+    rotate: 90deg;
+    z-index: 2;
+    left: 0px;
+    position: absolute;
+}
+.Plus{/*Nao mexer*/
+    background-color: #383a40;
+    position: relative;
+    margin-left: 11.2px;
+    margin-top: 6px;
+    border-radius: 25px;
+    width: 2px;
+    height: 13px;
+}
+#ChatText{/*Nao mexer*/
+    font-family: 'Open sans';
+    width: 1200px;
+    position: absolute;
+    left: 40px;
+    z-index: 1;
+    color: white;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    border-color: #383a4000;
+    background-color: #383a40;
+}
+#ChatText:focus, input:focus{/*Nao mexer*/
+    outline: none;
+}
+#ChatText::placeholder{/*Nao mexer*/
+    color: #949ba4;
+}
+#Chat{/*Nao mexer*/
+    width: 1280px;
+    height: 45px;
+    position: fixed;
+    border-radius: 10px;
+    left: 340px;
+    top: 92%;
+    z-index: 2;
+    background-color: #383a40;
+}
+#Hashtag{/*Nao mexer*/
+    position: relative;
+    left: 240px;
+    top: 13px;
+    color: #80848e;
+    z-index: 2;
+}
+#ChatTab{/*Nao mexer*/
+    top: 12.8px;
+    left: 70px;
+    width: 100%;
+    height: 51.7px;
+    position: relative;
+    background-color: #313338;
+}
+#PopoutSettings {
+    width: 220px;
+    height: 480px;
+    top: -450px; /* Start above the viewport */
+    left: 8px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #111214;
+    display: none;
+    /* Animation properties */
+    animation-name: slideIn;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; /* Smooth animation */
+}
+
+/* Keyframes for the slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: 10px; /* Start above the viewport */
+    }
+    to {
+        top: 60px; /* End at 50px from the top */
+    }
+}
+@keyframes slideOut{
+    from{
+        top:60px;
+    }
+    to{
+        top: 10px;
+    }
+}
+
+#Info{/*Nao mexer*/
+    color: #80848e;
+}
+.Icon{/*Nao mexer*/
+    margin-left: 8px;
+}
+#ConvidarPessoas{/*Nao mexer*/
+    color: #949cf7;
+}
+.Separador{/*Nao mexer*/
+    box-sizing: border-box;
+    position: relative;
+    opacity: 0.2;
+    left: 5px;
+    width: 200px;
+    margin: 4px;
+    border-bottom: 1px solid;
+}
+#Sair{/*Nao mexer*/
+    color: #f23f42;
+}
+#Sair:hover,#SairTxt:hover, #SairIcon:hover{/*Nao mexer*/
+    background-color: #f23f42;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+#SairIcon{/*Nao mexer*/
+    margin-left: 8px;
+}
+.Txt{/*Nao mexer*/
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 0;
+    padding: 6px 8px;
+    min-height: 32px;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Open sans';
+    text-align: left;
+    font-weight: 650;
+}
+.Txt:hover, .Icon:hover{/*Nao mexer*/
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: #4752c4;
+}
+#RightTab{/*Nao mexer*/
+    position: absolute;
+    width: 240px;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    top: 75px;
+    left: 1636.5px;
+    z-index: 2;
+    background-color: #2b2d31;
+}
+#Membros{
+    font-family: 'Open Sans';
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #949ba4;
+}
